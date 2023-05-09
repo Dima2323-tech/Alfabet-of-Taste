@@ -1,0 +1,144 @@
+.Card_Container{
+
+    background: #2B2B2B;
+    box-shadow: 20px 19px 26px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    .Card_Content{
+
+        .Card_Photo{
+            img{
+                width: 200px;
+                height: 250px;
+            }
+        }
+        .Card_Name , .Card_Price {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 18px;
+            /* or 75% */
+
+            text-align: center;
+            letter-spacing: 0.1px;
+
+            color: #FFFFFF;
+        }
+
+        .Card_Name{
+            margin: 35px 0 15px 0;
+        }
+
+        .Card_Info{
+            position: relative;
+            .Info_Btn{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+
+                background: #2E80CC;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                transition: transform 500ms ease;
+
+                &:hover{
+                    color: #d83030;
+                    transform: scale(1.2);
+                }
+                .Info_Btn_Text{
+                    
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 18px;
+                    /* or 56% */
+                    
+                    text-align: center;
+                    letter-spacing: 0.1px;
+
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+
+        .Card_Add_Cart{
+            position: relative;
+            .Add_Btn{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+               
+                
+
+                background: #CC2E2E;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                
+                cursor: pointer;
+                transition: transform 500ms ease;
+
+                &:hover{
+                    color: #d83030;
+                    transform: scale(1.2);
+                }
+                .Add_Btn_Text{
+                    
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 18px;
+                    /* or 56% */
+                    
+                    text-align: center;
+                    letter-spacing: 0.1px;
+
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:401px) {
+    .Card_Container{
+        margin: 0 70px 50px 70px;
+    }
+}
+@media screen and (max-width:400px) {
+    .Card_Container{
+        margin: 0 0 50px 0
+    }
+}
+@media screen and (min-width:330px) {
+    .Card_Container{
+        padding: 20px 30px;
+    }
+
+    .Info_Btn{
+        top: -380px;
+        right: 205px;
+    }
+
+    .Add_Btn{
+        left: 200px;
+    }
+}
+@media screen and (max-width:329px) {
+    .Card_Container{
+        padding: 20px 15px;
+    }
+    .Info_Btn{
+        top: -385px;
+        right: 170px;
+    }
+
+    .Add_Btn{
+        left: 170px;
+    }
+}

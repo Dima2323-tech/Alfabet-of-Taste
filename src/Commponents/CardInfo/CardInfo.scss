@@ -1,0 +1,80 @@
+.full-item{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0 , 0 , 0 , 0.8);
+    z-index: 9999;
+    overflow: auto;
+
+    .full-item-content{
+        
+        position: relative;
+        margin: 10% auto;
+        padding: 40px 30px;
+        background: #2B2B2B;
+        border-radius: 10px ;
+
+        .full-item-close{
+            color:  #ca5252;
+            float: right;
+            top: -15px;
+            position: relative;
+            transform: scale(1.5);
+            cursor: pointer;
+            transition: color , transform 500ms ease;
+
+            &:hover{
+                color: #d83030;
+                transform: scale(2);
+            }
+        }
+    }
+
+    h2 , p  {
+        margin: 10px 20px ;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    .Photo_Container{
+        text-align: center;
+        margin: 25px 0 25px 0;
+    }
+
+    .addCart{
+        text-align: center;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        background: #ca5252;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        color: #fff;
+        border-radius:50%;
+        cursor: pointer;
+        font-weight: 600;
+        transition: transform 500ms ease;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+    
+}
+@media screen and (min-width:370px) {
+    .full-item-content{
+        width: 300px;
+    }
+}
+@media screen and (max-width:369px) {
+    .full-item-content{
+        width: 180px;
+    }
+
+    .Img_Food{
+        width: 180px;
+    }
+}

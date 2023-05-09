@@ -1,0 +1,185 @@
+.Location_Container{
+    padding-top: 62px;
+    display: flex;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+
+    .Location_Content{
+        display: flex;
+        align-items: center;
+        
+        
+        .Location_Main_Section{
+            
+
+            .Location_Main_Section_Heading{
+                
+                
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 88px;
+                    color: white;
+
+                }
+
+
+            }
+
+            .Location_Main_Section_Text{
+
+                
+                margin: 25px 0 50px 0;
+                
+
+                div{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 30px;
+
+                    
+                    letter-spacing: 0.2px;
+                    
+
+                    
+                    color: #FFFFFF;
+
+                    &:not(:first-child){
+                        margin-right: 0;
+                        
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1570px) {
+    .Location_Content{
+        
+
+        .Location_Main_Section_Heading{
+            width: 525px;
+            span{
+                
+                font-size: 80px;
+                
+                
+            }
+        }
+
+        .Location_Main_Section_Text{
+            width: 715px;
+            div{
+                
+                font-size: 28px;
+
+            }
+        }
+       
+    }
+}
+@media screen and (max-width: 1570px) {
+    .Location_Content{
+        
+
+        .Location_Main_Section_Heading{
+            
+            span{
+                
+                font-size: 40px;
+                
+                
+            }
+        }
+
+        .Location_Main_Section_Text{
+            
+
+            div{
+            
+                font-size: 20px;
+                
+
+            }
+        }
+       
+    }
+}
+@media screen and (min-width: 1000px) {
+    .Location_Content{
+        flex-direction: row-reverse;
+        .Location_Main_Section{
+           
+            margin-left: 70px ;
+
+        }
+
+        .Location_Main_Section_Heading{
+            
+            margin-right: 0;
+            text-align: right;
+           
+        }
+        .Location_Main_Section_Text{
+            
+            text-align: right;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Location_Content{
+        flex-direction: column-reverse;
+
+        .Location_Main_Section_Heading{
+            text-align: center;
+
+        }
+
+        .Location_Main_Section_Text{
+            text-align: center;
+           
+        }
+
+       
+    }
+}
+@media screen and (min-width:511px) {
+    .Location_Main_Section_Heading{
+        width: 425px;
+       
+    }
+
+    .Location_Main_Section_Text{
+        width: 515px;
+
+    }
+}
+@media screen and (max-width: 510px) {
+    .Location_Content{
+        
+        
+        .Location_Main_Section_Heading{
+           
+            span{
+                
+                font-size:20 px;
+                
+                
+            }
+        }
+    
+        .Location_Main_Section_Text{
+            
+                
+                span{
+                    
+                    font-size: 20px;
+                        
+                }
+            }
+        }
+    }

@@ -1,0 +1,95 @@
+footer{
+    overflow-x: hidden;
+    margin-top: 15px;
+    .Footer_Content{
+        display: flex;
+        max-width: 1800px;
+        
+        align-items: center;
+        justify-content: space-between;
+
+        .Footer_Privacy{
+            
+
+            span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+
+
+                text-align: right;
+                letter-spacing: 0.1px;
+
+                color: #FFFFFF;
+            }
+        }
+
+        .Footer_Icons{
+            
+            display: flex;
+
+            .icon_container{
+
+                &:not(:first-child){
+                    margin-left: 35px;
+                }
+
+                .icon{
+                    width:25px;
+                    height: 25px;
+                    color: white;
+                }
+
+                .heart{
+                    transition: all 300ms ease-in;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(0, 153, 255);
+                    }
+                }
+
+                .search{
+                    transition: all 300ms ease-in;
+                    cursor: pointer;
+                    &:hover{
+                        color: #3b5998;
+                    }
+                }
+
+                .cart{
+                    transition: all 300ms ease-in;
+                    cursor: pointer;
+                    &:hover{
+                        color: #0e76a8;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:521px) {
+    .Footer_Content{
+
+        .Footer_Privacy{
+            margin:0 0 0 15px;
+        }
+
+        .Footer_Icons{
+            margin:0 15px 0 0;
+        }
+    }
+}
+@media screen and (max-width:520px) {
+    .Footer_Content{
+        flex-direction: column;
+
+        .Footer_Logo{
+            margin: 25px 0 25px 0;
+        }
+
+        .Footer_Icons{
+            margin-bottom: 15px;
+        }
+    }
+}

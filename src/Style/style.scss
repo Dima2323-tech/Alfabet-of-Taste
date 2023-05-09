@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import "../Pages/HomePage/HomePage.scss";
+@import "../Commponents/Header/Header.scss";
+@import "../Commponents/Footer/Footer.scss";
+@import "../Commponents/Quality/Quality.scss";
+@import "../Commponents/Location/Location.scss";
+@import "../Commponents/Reviews/Reviews.scss";
+@import "../Commponents/Card/Card.scss";
+@import "../Commponents/AllCards/AllCards.scss";
+@import "../Commponents/CardInfo/CardInfo.scss";
+@import "../Commponents/About_Description/About_Description.scss";
+@import "../Commponents/Contact_Info/Contact_info.scss";
+@import "../Commponents/Order/Order.scss";
+@import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+*{
+    margin: 0 auto; 
+    padding: 0;
+}
+
+body{
+    background-color: rgba(34, 34, 34, 1);
+    font-family: "Abel" , sans-serif;
+}
+
+
+
+@media screen and (min-width: 1570px) {
+    .HomePagePhoto{
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .HomePagePhoto{
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .HomePagePhoto{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .HomePagePhoto{
+        width: 250px;
+        height: 250px;
+    }
+}

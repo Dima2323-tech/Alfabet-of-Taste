@@ -1,0 +1,313 @@
+.Contact_Info_Container{
+    display: flex;
+    margin: 50px auto 230px auto;
+
+    .Contact_Info_Content{
+        display: flex;
+        align-items: center;
+        padding: 0 25px 0 25px;
+        
+
+        .Contact_Info_Contacts{
+            
+            .Contact_Info_Contacts_Heading{
+                text-align: center;
+                margin-bottom: 70px;
+                
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 30px;
+                    /* identical to box height, or 30% */
+
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* light text */
+
+                    color: #FFFFFF;
+                }
+            }
+
+            .Contact_Info_Contacts_Description{
+                
+                .Des_Heading{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 30px;
+                    /* or 94% */
+
+                    letter-spacing: 0.2px;
+
+                    /* light text */
+
+                    color: #FFFFFF;
+                    
+                }
+
+                .Contact_Info_Contacts_Description_Phones{
+                    margin:20px 0 50px 0;
+                    
+                    span{
+                        font-style: normal;
+                        font-weight: 400;
+                        
+                        line-height: 30px;
+                        /* or 94% */
+    
+                        letter-spacing: 0.2px;
+    
+                        /* light text */
+    
+                        color: #FFFFFF; 
+
+                    }
+
+                    p{
+                        a{
+                            font-style: normal;
+                            font-weight: 400;
+                            
+                            line-height: 30px;
+                            /* identical to box height, or 94% */
+
+                            letter-spacing: 0.2px;
+
+                            /* light text */
+
+                            color: #FFFFFF;
+                            text-decoration: none;
+                            transition: all 300ms ease-in;
+
+                            &:hover{
+                                color: rgba(239, 53, 174, 1);;
+                            }
+                        }
+                         margin-top: 35px;
+                    }
+                }
+
+                .Contact_Info_Contacts_Description_Email{
+
+                    span{
+
+                        font-style: normal;
+                        font-weight: 400;
+                        
+                        line-height: 30px;
+                        /* or 94% */
+    
+                        letter-spacing: 0.2px;
+    
+                        /* light text */
+    
+                        color: #FFFFFF; 
+
+                    }
+
+                    p{
+                        a{
+                            font-style: normal;
+                            font-weight: 400;
+                            
+                            line-height: 30px;
+                            /* identical to box height, or 94% */
+
+                            letter-spacing: 0.2px;
+
+                            /* light text */
+
+                            color: #FFFFFF;
+                            text-decoration: none;
+                            transition: all 300ms ease-in;
+
+                            &:hover{
+                                color: rgba(239, 53, 174, 1);;
+                            }
+                        }
+
+                        margin-top: 40px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+@media screen and (max-width:1750px) {
+    .Contact_Info_Map{
+
+        img{
+            width: 750px;
+        }
+    }
+}
+@media screen and (min-width:1400px) {
+    .Contact_Info_Contacts_Heading{
+       
+        span{
+            
+            font-size: 100px;
+            
+        }
+    }
+
+    .Des_Heading{
+       
+        font-size: 26px;
+    
+    }
+
+    .Contact_Info_Contacts_Description_Phones{
+       
+        
+        span{
+            
+            font-size: 26px;
+
+        }
+
+        p{
+            a{
+                
+                
+                font-size: 26px;
+        }
+    }
+}
+    .Contact_Info_Contacts_Description_Email{
+
+        span{
+
+            font-size: 26px;
+            
+        }
+
+            p{
+                a{
+                    
+                    font-size: 26px;
+                }
+            }
+        }
+}
+@media screen and (max-width:1400px) {
+    .Contact_Info_Map{
+
+        img{
+            width: 600px;
+        }
+    }
+    .Contact_Info_Contacts_Heading{
+       
+        span{
+            
+            font-size: 60px;
+            
+        }
+    }
+
+    .Des_Heading{
+       
+        font-size: 20px;
+    
+    }
+
+    .Contact_Info_Contacts_Description_Phones{
+       
+        
+            span{
+                
+                font-size: 20px;
+
+            }
+
+            p{
+                a{
+                    
+                    
+                    font-size: 20px;
+            }
+        }
+    }
+    .Contact_Info_Contacts_Description_Email{
+
+         span{
+
+            font-size: 20px;
+            
+         }
+
+            p{
+                a{
+                    
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+@media screen and (min-width:1171px) {
+        
+    .Contact_Info_Map{
+        
+        margin-right: 200px;
+
+    }
+    .Contact_Info_Contacts{
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .Contact_Info_Map{
+        
+        margin-bottom: 100px;
+        
+        
+    }
+    .Contact_Info_Content{
+        flex-direction: column;
+    }
+
+    .Contact_Info_Contacts_Description{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:666px) {
+    .Contact_Info_Map{
+        
+        img{
+            width: 400px;
+        }
+
+    }
+    
+}
+@media screen and (min-width:430px) {
+    
+    .Contact_Info_Contacts_Heading{  
+        width: 390px;
+    }
+}
+@media screen and (max-width:430px) {
+    .Contact_Info_Map{
+        
+        img{
+            width: 300px;
+        }
+
+    }
+    
+}
+
+@media screen and (max-width:430px) {
+    .Contact_Info_Map{
+        
+        display: none;
+
+    }
+    
+}

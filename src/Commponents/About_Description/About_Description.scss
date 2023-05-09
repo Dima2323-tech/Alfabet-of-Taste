@@ -1,0 +1,119 @@
+.About_Description_Container{
+    display: flex;
+
+    .About_Description_Content{
+        display: flex;
+        flex-direction: column;
+
+        .About_Description_Heading{
+            margin: 100px auto 100px auto;
+            span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 100px;
+                /* identical to box height, or 30% */
+
+                text-align: center;
+                letter-spacing: 0.2px;
+
+                /* light text */
+
+                color: #FFFFFF;
+            }
+        }
+
+        .About_Description_Text{
+            
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 31px;
+                /* or 97% */
+
+                letter-spacing: 0.1px;
+
+                color: #FFFFFF;
+
+                &:not(:last-child){
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        .About_Partners{
+            text-align: center;
+            margin-bottom: 150px;
+            .About_Partners_Heading{
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 52px;
+                    line-height: 62px;
+                    /* identical to box height, or 119% */
+
+                    letter-spacing: 0.2px;
+
+                    /* light text */
+
+                    color: #FFFFFF;
+                }
+            }
+            .About_Partners_Text{
+                margin:25px 0 75px 0;
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 30px;
+                    /* identical to box height, or 94% */
+
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    /* light text */
+
+                    color: #FFFFFF;
+                }
+            }
+
+            
+        }
+        .About_Partners_Img{
+            max-width: 1600px;
+            img{
+                  
+                  margin: 25px 37px 0 37px;
+                
+            }
+        }
+    }
+}
+@media screen and (min-width: 630px) {
+    .About_Description_Text{
+        width: 600px;
+        margin-bottom: 200px;
+    }
+}
+@media screen and (max-width: 629px) {
+    .About_Description_Text{
+        
+        margin: 0 25px 200px 25px
+    }
+}
+@media screen and (min-width: 371px) {
+    .About_Description_Heading{
+        
+        span{ 
+            line-height: 30px;
+        }
+    }
+}
+@media screen and (max-width: 370px) {
+    .About_Description_Heading{
+        text-align: center;
+        span{ 
+            line-height: 90px;
+        }
+    }
+}

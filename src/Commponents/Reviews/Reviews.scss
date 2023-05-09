@@ -1,0 +1,154 @@
+.Reviews_Container{
+    padding-top: 62px;
+    display: flex;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+   
+    .Reviews_Content{
+        display: flex;
+        align-items: center;
+        .Reviews_Main_Section{
+            
+            
+            .Reviews_Main_Section_Heading{
+                
+                
+
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 88px;
+                    color: white;
+                }
+            }
+
+            .Reviews_Main_Section_Text{
+
+                
+                margin: 25px 0 50px 0;
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    
+                    line-height: 30px;
+
+                    
+                    letter-spacing: 0.2px;
+                    
+
+                    
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1570px) {
+    .Reviews_Content{
+        
+
+        .Reviews_Main_Section_Heading{
+            
+            span{
+                
+                font-size: 80px;
+                
+                
+            }
+        }
+
+        .Reviews_Main_Section_Text{
+            width: 715px;
+            span{
+                
+                font-size: 28px;
+                
+                
+
+            }
+        }
+       
+    }
+}
+@media screen and (max-width: 1570px) {
+    .Reviews_Content{
+        
+
+        .Reviews_Main_Section_Heading{
+            
+            span{
+                
+                font-size: 40px;
+                
+                
+            }
+        }
+
+        .Reviews_Main_Section_Text{
+            
+
+            span{
+            
+                font-size: 20px;
+                
+
+            }
+        }
+       
+    }
+}
+@media screen and (min-width: 1000px) {
+    .Reviews_Content{
+        .Reviews_Main_Section{
+           
+            margin-right: 70px;
+
+        }
+
+        .Reviews_Main_Section_Heading{
+            
+            margin-left: 0;
+            text-align: left;
+           
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Reviews_Content{
+        flex-direction: column-reverse;
+
+        .Reviews_Main_Section_Heading{
+            text-align: center;
+
+        }
+
+        .Reviews_Main_Section_Text{
+            text-align: center;
+        }
+
+    }
+}
+@media screen and (min-width: 511px){
+    .Reviews_Content{
+        
+
+        .Reviews_Main_Section_Text{
+            width: 500px;
+
+            
+        }
+
+    }
+}
+
+@media screen and (max-width: 510px) {
+.Quality_Content{
+    
+        .Reviews_Main_Section_Heading{
+            width: 425px;
+            
+        }
+    }
+}

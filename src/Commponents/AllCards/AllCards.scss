@@ -1,0 +1,11 @@
+.AllCards_Container{
+    display: flex;
+    padding: 50px 0 50px 0;
+    margin-top: 70px;
+    .AllCards_Content{
+        display: flex;
+        max-width: 1600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
