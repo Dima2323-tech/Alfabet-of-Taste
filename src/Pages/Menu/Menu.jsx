@@ -76,7 +76,7 @@ const Menu = () => {
   ])
   const [showFullItem, setShowFullItem] = useState(false);
   const [fullItem, setFullItem] = useState({});
-  const [currentItems, setCurrentItems] = useState([]);
+  const [, setCurrentItems] = useState([]);
 
   const [orders, setOrders] = useState(() => {
     const savedOrders = localStorage.getItem('orders');
