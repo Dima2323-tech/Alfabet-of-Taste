@@ -96,6 +96,13 @@ const Menu = () => {
 
   const deleteOrder = (id) => {
     setOrders(orders.filter((el) => el.id !== id));
+    const index = orders.findIndex(order => order.id === id)
+    console.log(index)
+    if(index !== -1 ){
+      orders.splice(index , 1)
+    }
+
+    localStorage.setItem("orders" , JSON.stringify(orders))
   };
 
   const deleteCountOrder = (count) => {
@@ -103,7 +110,6 @@ const Menu = () => {
       const newOrders = prevOrders.filter(order => order.count !== count);
       return newOrders;
     });
-    localStorage.removeItem('orders')
   };
 
   const addToOrder = (card) => {

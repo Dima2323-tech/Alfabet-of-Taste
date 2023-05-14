@@ -4,6 +4,7 @@ import {HomePage} from './Pages/HomePage/HomePage';
 import { Menu } from './Pages/Menu/Menu';
 import {About} from "./Pages/About/About"
 import {Contact} from './Pages/Contact/Contact';
+import {Order} from "./Pages/Order/Order"
 import Header from './Commponents/Header/Header';
 import Footer from './Commponents/Footer/Footer';
   const App = () => {
@@ -30,6 +31,7 @@ import Footer from './Commponents/Footer/Footer';
           <Route path="/Menu" element={<Menu/>} />
           <Route path='/About' element={<About/>} />
           <Route path="/Contact" element={<Contact/>} />
+          <Route path='/Order' element={<Order/>}/>
         </Routes>
 
         <div

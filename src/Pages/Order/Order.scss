@@ -1,0 +1,130 @@
+.Order_Container{
+    padding: 20px 0 20px 0;
+    margin: 50px auto 50px auto;
+    background-color: white;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 20px;
+    
+
+    .Order_Content{
+        display: flex;
+
+        .empty{
+            text-align: center;
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                transition: all 300ms ease-in;
+                color: #d83030;
+                &:hover{
+                   
+                    color: rgba(239, 53, 174, 1);
+                }
+            }
+            h2{
+                margin-bottom: 10px;
+            }
+        }
+
+        .Order_List{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+                .Order{
+                background-color: #222222;
+                width: 250px;
+                text-align: right;
+                margin: 50px auto 50px auto;
+                border-radius: 20px;
+                padding: 20px;
+                }
+
+                .delete-icon{
+                    color:  #ca5252;
+                   
+                    
+                    
+                    cursor: pointer;
+                    transition: color , transform 500ms ease;
+
+                    &:hover{
+                        color: #d83030;
+                        transform: scale(1.5);
+                    }
+                }
+            
+                
+                .Order_Img{
+                    text-align: center;
+                    margin: 20px auto 20px auto;
+                    img{
+                        
+                       
+                    }
+                }
+
+                .Order_Info{
+                    text-align: center;
+                    color: white;
+
+                    div{
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .Order_Client{
+              position: relative;
+                .Order_Client_Inps_{
+                    margin-bottom: 30px;
+                    display: flex;
+                    flex-direction: column;
+                   
+                    span{
+                        font-size: 18px;
+                        margin: auto auto 10px 0;
+                    }
+
+                    input{
+                        width: 200px;
+                        height: 25px;
+                        border: none;
+                        background-color: #222222;
+                        color: white;
+                        padding: 5px;
+                        border-radius: 15px;
+                        font-size: 16px;
+                    };
+                }
+            }
+
+            .Order_Client_BtnS{
+                text-align: center;
+
+                div{
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+                button{
+                    font-size: 16px;
+                    padding: 10px;
+                    width: auto;
+                    border: none;
+                    background-color: #222222;
+                    color: white;
+                    border-radius: 25px;
+                    transition: all 300ms ease-in;
+                    &:hover{
+                        
+                        scale: (1.1);
+                        color: rgba(239, 53, 174, 1);
+                    }
+                }
+
+            }
+        }
+    }

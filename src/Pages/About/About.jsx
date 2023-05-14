@@ -5,7 +5,7 @@ import { AboutDescription } from '../../Commponents/About_Description/About_Desc
 
 
 const logosArr = [
-    { id: 1, name: "Mastercard" , link: "https://www.mastercard.ua" },
+    { id: 1, name: "MasterCard" , link: "https://www.mastercard.ua" },
     { id: 2, name: "Maestro" , link: "https://www.mastercard.ua" },
     { id: 3, name: "Star" , link:"https://www.starbucks.com/" },
     { id: 4, name: "Nestle" , link:"https://www.nestle.ua/" },

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import reviews from "../../img/Reviews_photo.png"
+import reviews from "../../img/Reviews_Photo.png"
 const Reviews = () => {
   return (
     <div className='Reviews_Container'>

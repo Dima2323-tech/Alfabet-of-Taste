@@ -107,11 +107,11 @@ header{
                     box-shadow: 4px 5px 15px -7px #606060;
                     z-index: 1000;
                     padding: 20px;
-                    padding-bottom: 0;
+                    
         
                     .item-order{
                         width: 100%;
-                        float: left;
+                        
                         margin-bottom: 20px;
         
                         img{
@@ -148,21 +148,38 @@ header{
                             }
                         }
                     }
-        
-                    .sum{
-                        float: left;
-                        width: 100%;
-                        font-weight: 600;
-                        font-size: 20px;
-                        margin-bottom: 20px;
-                        color: white;
+
+                    .sum_order{
+                        align-items: center;
+                        display: flex;
+                        .sum{
+                           
+                            
+                            font-weight: 600;
+                            font-size: 20px;
+                            color: white;
+                        }
+
+                        a{
+                            padding: 10px;
+                            border-radius: 15px;
+                            background-color: white;
+                            text-decoration: none;
+                            color: #222222;
+                            font-size: 16px;
+                            transition: all 300ms ease-in;
+
+                            &:hover{
+                                scale: (1.1);
+                                color: rgba(239, 53, 174, 1);
+                            }
+                        }
                     }
-        
-                    .empty{
-                      font-size: 20px;
-                      margin-bottom: 20px; 
-                      color: white; 
-                    }
+                        .empty{
+                            font-size: 20px;
+                            margin-bottom: 20px; 
+                            color: white; 
+                        }
                 }
             }
         }

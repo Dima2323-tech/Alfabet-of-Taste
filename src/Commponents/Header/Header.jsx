@@ -14,7 +14,12 @@ const ShowOrders = (props) => {
       {props.orders.map((card) => (
         <Order deleteOrder={props.deleteOrder} deleteCountOrder={props.deleteCountOrder} key={card.id} card={card}/>
       ))}
-      <p className='sum'>Сумма: {new Intl.NumberFormat().format(summa)}$</p>
+      <div className='sum_order'>
+        <span className='sum'>Сумма: {new Intl.NumberFormat().format(summa)}$</span>
+        <Link to="/Order" ShowOrders={ShowOrders}>Macke Order</Link>
+        
+      </div>
+      
     </div>
   );
 };
@@ -101,6 +106,7 @@ const Header = (props) => {
                     <>
                       <CgCloseO className='close-icon' onClick={closeCart}/>
                       <ShowOrders  {...props} />
+                      
                     </>
                   ) : (
                     <>
