@@ -5,11 +5,11 @@ import { AboutDescription } from '../../Commponents/About_Description/About_Desc
 
 
 const logosArr = [
-    { id: 1, name: "MasterCard" , link: "https://www.mastercard.ua" },
-    { id: 2, name: "Maestro" , link: "https://www.mastercard.ua" },
-    { id: 3, name: "Star" , link:"https://www.starbucks.com/" },
-    { id: 4, name: "Nestle" , link:"https://www.nestle.ua/" },
-    { id: 5, name: "PizzaHut" , link:"https://twitter.com/pizzahut"},
+    { id: 1, name: "MasterCard" , link: "https://www.mastercard.ua" , img: "MasterCard.png" },
+    { id: 2, name: "Maestro" , link: "https://www.mastercard.ua" , img: "Maestro.png" },
+    { id: 3, name: "Star" , link:"https://www.starbucks.com/" , img: "Star.png" },
+    { id: 4, name: "Nestle" , link:"https://www.nestle.ua/" , img: "Nestle.png" },
+    { id: 5, name: "PizzaHut" , link:"https://twitter.com/pizzahut" , img: "Pizzahut.png"},
   ];
   
 const About = () => {
