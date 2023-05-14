@@ -93,7 +93,7 @@ const Order = (props) => {
       
     return (
       
-      <div className='Order_Container'>
+      <div className="Order_Container">
 
       <div className='Order_Content'>
 

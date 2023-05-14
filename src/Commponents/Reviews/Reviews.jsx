@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import reviews from "../../img/ReviewsPhoto.png"
 const Reviews = () => {
   return (

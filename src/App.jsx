@@ -1,12 +1,11 @@
-import React , {useState} from 'react';
+import React  from 'react';
 import { Routes, Route, } from 'react-router-dom';
 import {HomePage} from './Pages/HomePage/HomePage';
 import { Menu } from './Pages/Menu/Menu';
 import {About} from "./Pages/About/About"
 import {Contact} from './Pages/Contact/Contact';
 import {Order} from "./Pages/Order/Order"
-import Header from './Commponents/Header/Header';
-import Footer from './Commponents/Footer/Footer';
+
   const App = () => {
 
 
@@ -20,7 +19,7 @@ import Footer from './Commponents/Footer/Footer';
   }
 
 
-  const [orders, setOrders] = useState([]);
+  
 
  
 

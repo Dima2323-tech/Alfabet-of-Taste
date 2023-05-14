@@ -46,7 +46,7 @@ const AboutDescription = (props) => {
                         <div className='About_Partners_Img' data-aos="fade-up"  data-aos-duration="1500">
                             {props.logosArr.map((el) => (
                                 <a key={el.id} href={el.link}>
-                                   <img src={`./img/${el.name }`+ `.png`} alt='partners_logo'/> 
+                                   <img src={`./img/${el.name }``.png`} alt='partners_logo'/> 
                                 </a>
                             ))}
                         </div>

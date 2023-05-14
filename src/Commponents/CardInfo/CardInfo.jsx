@@ -16,13 +16,13 @@ const CardInfo = (props) => {
         <p>{card.price}$</p>
 
         <div className='Photo_Container'>
-            <img className='Img_Food' src={`./img/${card.img}`}></img>
+            <img className='Img_Food' src={`./img/${card.img}`} alt='Img_Food'></img>
         </div>
         
         <p>{card.desc}</p>
 
         <div className='Photo_Container'>
-            <img className='Img_Smile' src={face}></img>
+            <img className='Img_Smile' src={face} alt='Img_Face'></img>
         </div>
 
         <div className='addCart' onClick={() => {

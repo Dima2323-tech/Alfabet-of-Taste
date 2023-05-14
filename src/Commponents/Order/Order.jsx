@@ -1,11 +1,11 @@
 import React from 'react';
 import { FaTrash } from 'react-icons/fa';
-import {CgCloseO} from 'react-icons/cg'
+
 const Order = (props) => {
   const {card , } = props
   return (
     <div className='item-order'>
-      <img src={"./img/" + card.img}/>
+      <img src={"./img/" + card.img} alt='Order_Face'/>
       <h2>{card.title}</h2>
       <b>{new Intl.NumberFormat().format(card.price * card.count)}$</b>
       <p className='item-count'>x {card.count}</p>

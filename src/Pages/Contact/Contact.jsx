@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import Header from '../../Commponents/Header/Header'
 import Footer from '../../Commponents/Footer/Footer'
-import Contact_Info from '../../Commponents/Contact_Info/Contact_Info'
+import ContactInfo from '../../Commponents/Contact_Info/Contact_Info'
 const Contact = () => {
   const [orders, setOrders] = useState(() => {
     const savedOrders = localStorage.getItem('orders');
@@ -23,7 +23,7 @@ const Contact = () => {
     <div className='Contact_Container'>
       <div className='Contact_Content'>
         <Header orders={orders} deleteOrder={deleteOrder} deleteCountOrder={deleteCountOrder} /> 
-            <Contact_Info/>
+            <ContactInfo/>
         <Footer/>
     </div>
 </div>
